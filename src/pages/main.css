@@ -1,0 +1,8 @@
+.main > h1{
+    text-align: center;
+    font-size: 22px;
+}
+.mainCol {
+    display:flex;
+    flex-direction:row;
+}

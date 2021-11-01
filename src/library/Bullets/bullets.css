@@ -1,0 +1,7 @@
+.bullets{
+    height: 30px;
+    width: 30px;
+    background: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+}

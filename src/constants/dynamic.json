@@ -1,0 +1,45 @@
+[
+
+    {
+        "type":"general",
+        "features":{
+            "case management":{"feature":true},
+            "map timeline":{"feature":true},
+            "views & briefings":{"feature":true},
+            "notifications":{"feature":true},
+            "mass communications":{"feature":true},
+            "traffic cameras": {"feature":true}
+        }
+        
+    },
+    {
+        "type":"settings",
+        "features":{
+            "audit log":{"feature":true},
+            "users":{
+                "feature":true,
+                "children":{
+                    "user add":{"feature":true},
+                    "user delete":{"feature":true},
+                    "user edit":{"feature":true},
+                    "max users":{
+                        "dropdown":[1,2,3,4,5,6,7,8,10],
+                        "feature":true
+                    }
+                }
+                
+            }
+        }
+    },
+    {
+        "type":"alerts",
+        "features":{
+            "alert manager":{"feature":true},
+            "alert rules":{
+                "feature":true,
+                "dropdown":[1,2,3,4,5,6,7,8,9,10]
+            }
+        }
+        
+    }
+]
