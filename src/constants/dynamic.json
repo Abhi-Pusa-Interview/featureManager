@@ -4,9 +4,9 @@
         "type":"general",
         "features":{
             "case management":{"feature":true},
-            "map timeline":{"feature":true},
+            "map timeline":{"feature":false},
             "views & briefings":{"feature":true},
-            "notifications":{"feature":true},
+            "notifications":{"feature":false},
             "mass communications":{"feature":true},
             "traffic cameras": {"feature":true}
         }
@@ -15,11 +15,11 @@
     {
         "type":"settings",
         "features":{
-            "audit log":{"feature":true},
+            "audit log":{"feature":false},
             "users":{
                 "feature":true,
                 "children":{
-                    "user add":{"feature":true},
+                    "user add":{"feature":false},
                     "user delete":{"feature":true},
                     "user edit":{"feature":true},
                     "max users":{
